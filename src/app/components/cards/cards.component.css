@@ -14,15 +14,18 @@
     flex: 1 auto;
     margin-left: 4rem;
     background-color: cadetblue;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .contenedor-items {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
 }
 
 .card {
     flex: 1 4%;
+    width: 6rem;
     height: 16rem;
     border-radius: 5px;
 }
