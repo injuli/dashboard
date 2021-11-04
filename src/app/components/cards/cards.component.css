@@ -4,9 +4,23 @@
     box-sizing: border-box;
 }
 
+#tabs {
+    display: flex;
+    transform: translate(71rem, 0rem) !important;
+}
+
 .contenedor-cards {
     display: flex;
     flex: 1 auto;
     margin-left: 4rem;
     background-color: cadetblue;
+}
+
+.design-dots {
+    display: flex;
+    width: 12%;
+    background-image: url('../../../assets/img/SVG/icon_options.svg');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
