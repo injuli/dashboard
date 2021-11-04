@@ -11,5 +11,8 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  public changeColor(): any{
+    const chars = '0123456789ABCDEF';
+    const hex = '#';
+  }
 }

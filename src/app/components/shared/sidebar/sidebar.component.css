@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-sidebar {
+    display: flex;
+    height: 100%;
+    width: 4rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+.contenedor-item {
+    display: flex;
+    flex: 1 auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6f00;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
