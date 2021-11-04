@@ -10,10 +10,26 @@
 }
 
 .contenedor-cards {
-    display: flex;
+    /* display: flex; */
     flex: 1 auto;
     margin-left: 4rem;
     background-color: cadetblue;
+}
+
+.contenedor-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 4%;
+    height: 16rem;
+    border-radius: 5px;
+}
+
+.label-img {
+    object-fit: cover;
+    height: inherit;
 }
 
 .design-dots {
