@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-cards {
+    display: flex;
+    flex: 1 auto;
+    margin-left: 4rem;
+    background-color: cadetblue;
+}
