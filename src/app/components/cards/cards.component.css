@@ -119,6 +119,7 @@ select {
 .list{
     display: flex;
     flex: 1 auto;
+    margin:auto;
     width:100px;
     height:100px;
     align-items: stretch;
@@ -131,6 +132,7 @@ select {
     display: flex;
     flex: 1 auto;
     flex-wrap: wrap;
+    font-size: medium;
 }
 
 .list li{
