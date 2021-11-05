@@ -4,7 +4,11 @@ import { CardsComponent } from './components/cards/cards.component';
 
 const routes: Routes = [
   {path: '', component: CardsComponent},
-  {path: '**', pathMatch: 'full', redirectTo: ''}
+  {path: '**', redirectTo: ''}
+
+  // { path: '', redirectTo: 'cars', pathMatch: "full"},
+  // { path: 'cars', component: CardsComponent},
+  // { path: '**', redirectTo: ''},
 ];
 
 @NgModule({
