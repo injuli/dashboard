@@ -14,24 +14,35 @@
 }
 
 .contenedor-search {
+    background-color: yellowgreen;
     display: flex;
     flex: 1 auto;
+    width: 50%;
+    justify-content: stretch;
+    align-items: start;
 }
 
 .contenedor-user {
-    /* background-color: #0d87e3; */
+    background-color: #0d87e3;
     display: flex;
     flex: 1 auto;
+    width: 50%;
     justify-content: end;
     align-items: center;
 }
 
 .label-input-search {
-    flex: 1 6%;
+    display: flex;
+    /* flex: 1 10%; */
+    align-self: center;
+    justify-content: center;
 }
 
 .label-button-search {
-    flex: 1 6%;
+    display: flex;
+    /* flex: 1 10%; */
+    align-self: center;
+    justify-content: center;
 }
 
 .alert-bell {
