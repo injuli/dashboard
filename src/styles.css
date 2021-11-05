@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-display: swap;
+    font-family: "Bold";
+    src: local("Bold"), url('./assets/Font/SFProDisplay-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Regular";
+    font-weight: 900;
+    src: local("Regular"), url('./assets/Font/SFProDisplay-Regular.ttf') format("truetype");
+}

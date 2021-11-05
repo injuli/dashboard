@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bold", Arial, Helvetica, sans-serif;
 }
 
 #tabs {
@@ -23,11 +24,24 @@
     flex-wrap: row wrap;
 }
 
+
+/* 
+.contenedor-titulo {
+    display: flex;
+    flex: 1 auto;
+    flex-direction: row;
+} */
+
 .card {
     flex: 1 4%;
     width: 6rem;
     height: 16rem;
     border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
 }
 
 .label-img {
