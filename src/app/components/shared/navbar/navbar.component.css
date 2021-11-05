@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 .contenedor-header {
@@ -9,12 +10,10 @@
     flex: 1 auto;
     width: 100%;
     height: 4rem;
-    background-color: azure;
     padding: 1rem 1rem 0.8rem 6rem;
 }
 
 .contenedor-search {
-    background-color: yellowgreen;
     display: flex;
     flex: 1 auto;
     width: 50%;
@@ -23,7 +22,6 @@
 }
 
 .contenedor-user {
-    background-color: #0d87e3;
     display: flex;
     flex: 1 auto;
     width: 50%;
@@ -33,14 +31,18 @@
 
 .label-input-search {
     display: flex;
-    /* flex: 1 10%; */
     align-self: center;
     justify-content: center;
 }
 
+.label-input-search input {
+    background: #f2f2f2;
+    border-radius: 3px;
+    border: none;
+}
+
 .label-button-search {
     display: flex;
-    /* flex: 1 10%; */
     align-self: center;
     justify-content: center;
 }
@@ -53,9 +55,12 @@
     border-radius: 100%;
 }
 
+.user-title {
+    font-family: "Bold", Arial, Helvetica, sans-serif !important;
+}
+
 .image-user {
     display: flex;
-    /* flex: 1 2%; */
     width: 3rem;
     height: 3rem;
     border-radius: 100%;

@@ -5,11 +5,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.css']
 })
-export class CardsComponent implements OnInit {
+export class CardsComponent  {
+  public selectOptions = [
+    'Last Created',
+    'Another Modified',
+    'Last Opened',
+    'Alphabetically'
+  ];
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+    public selectedOption = 'Last Created';
+
+
+
 
 }
